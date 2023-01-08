@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+     <!-- Title tag -->
+     <title>One Page Responsive DeFiTrinity Template</title>
+
+     <!-- Font awesome -->
+     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+     <!-- Animate.css -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+     <!-- Normalize -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+
+     <!-- Custom CSS -->
+     <link href="css/styles.css" rel="stylesheet">
+
+     <style>
+          /* If you wish to remove the astonish.js file, then also be sure to remove these styles. */
+          .astonish {
+               visibility: visible;
+          }
+
+          @media (min-width: 768px) {
+               .astonish {
+                    visibility: hidden;
+               }
+
+               .animated {
+                    visibility: visible;
+               }
+          }
+
+          #butt {
+
+               border-radius: 11px;
+               cursor: pointer;
+               color: #ffffff;
+               font-family: Arial;
+               font-size: 16px;
+               font-weight: bold;
+          }
+     </style>
+</head>
+
+<body>
+     <!-- Main Navigation -->
+     <nav class="main-nav" id="main-nav">
+          <div class="content-wrapper-sm">
+               <a href="#" class="navbar-brand">DeFiTrinity</a>
+               <div id="menu-button">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+               </div>
+               <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#reserve">Our Roadmap</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#" id="butt" onclick="myFunction()">Connect Wallet</a></li>
+               </ul>
+          </div>
+     </nav>
+
+     <!-- Main header -->
+     <header>
+          <!-- First replaceble image -->
+          <img class="img-absolute" src="img/city.png" alt="City 1">
+          <div class="wrapper astonish animated fadeInDown">
+               <h1><strong>DeFi</strong>Trinity</h1>
+               <h2>The Grail of DeFi <br>
+               </h2>
+          </div>
+     </header>
+
+     <!-- Main content -->
+     <main>
+          <div class="content-wrapper" id="about">
+               <!-- second replaceble image -->
+               <img class="img-absolute" src="img/city2.png" alt="City 2">
+               <div class="grid">
+                    <div class="grid-col-sm-12 grid-col-md-6 astonish" data-animation="fadeInLeft">
+                         <h2 class="section-title">About DeFiTrinity</h2>
+                         <br><br>
+                         <p>DeFiTrinity protocol is designed carefully to bring back true decentralization to defi with
+                              its internal dex and swap located inside its contract.It brings all true character of a
+                              token with its hybrid features.</p>
+                         <!-- <p>The full version of this template is available at Github and it comes with the SASS files in order to provide quicker customization features, for those who are developers.</p>
+                              <p>Javascript files are also included, they are used to enhance the user experience but apart from the menu.js file, they are all optional.</p> -->
+                         <br><br><br>
+                    </div>
+               </div>
+          </div>
+
+          <div id="reserve" class="content-wrapper-lg text-center astonish" data-animation="zoomIn">
+               <h2 class="section-title">Deep Dive Into DeFiTrinity</h2>
+               <p> We all have a common question on
+                    how DeFiTrinity protocol will achieves this goal?
+                    How does the internal DEX and swap function within the contract will contribute to decentralization?
+                    join us and let take you through the Jouney.
+               </p>
+               <a href="#" class="btn btn-outline-purple">Download WhitePaper</a>
+               <!-- <button class="btn btn-outline-purple" onclick="myFunction()">Click me</button> -->
+          </div>
+
+          <div class="content-wrapper" id="contact">
+               <!-- Third replaceble image -->
+               <img class="img-absolute" src="img/city3.png" alt="City 3">
+
+               <!-- Custom form, important note: you will need additional code in order to make this form work -->
+               <form class="contact-form astonish" action="#" method="post" data-animation="fadeInRight">
+                    <h2 class="section-title">Contact Us</h2>
+                    <div class="grid">
+                         <div class="grid-col-sm-12 grid-col-md-6">
+                              <div class="form-group">
+                                   <input type="text" name="firstName" required>
+                                   <label for="firstName">First Name:</label>
+                              </div>
+                         </div>
+                         <div class="grid-col-sm-12 grid-col-md-6">
+                              <div class="form-group">
+                                   <input type="text" name="lastName" required>
+                                   <label for="lasttName">Last Name:</label>
+                              </div>
+                         </div>
+                         <div class="grid-col-sm-12">
+                              <div class="form-group">
+                                   <input type="text" name="email" required>
+                                   <label for="email">Email:</label>
+                              </div>
+                         </div>
+                         <div class="grid-col-sm-12">
+                              <div class="form-group">
+                                   <textarea name="message" required></textarea>
+                                   <label for="message">Message:</label>
+                              </div>
+                         </div>
+                    </div>
+                    <input class="btn btn-outline-teal" type="submit" value="Send">
+               </form>
+          </div>
+
+          <!-- This is an embedded Google map, this is easily customizable especially if you get a Google API key, this will allow for more customizable features. -->
+          <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8070639.141811454!2d3.3781404618759447!3d8.99589269227021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0baf7da48d0d%3A0x99a8fe4168c50bc8!2sNigeria!5e0!3m2!1sen!2sgh!4v1673171366523!5m2!1sen!2sgh"  frameborder="0" style="border:0" allowfullscreen></iframe> -->
+     </main>
+
+     <!-- Main footer -->
+     <footer>
+          <div class="content-wrapper-sm display-flex-between">
+               <!-- Easily replaceble copyright information -->
+               <small>Your copyright 2023.</small>
+
+               <!-- Make sure to edit the links so that they go to your social media. -->
+               <div class="social-links">
+                    <ul>
+                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                         <li><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+                         <li><a href="#"><i class="fa fa-discord" aria-hidden="true"></i></a></li>
+                    </ul>
+               </div>
+          </div>
+     </footer>
+
+     <!-- Scripts placed at the bottom for faster loading -->
+     <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+     <script src="js/menu.js" charset="utf-8"></script>
+     <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.36/dist/web3.min.js" integrity="sha256-nWBTbvxhJgjslRyuAKJHK+XcZPlCnmIAAMixz6EefVk=" crossorigin="anonymous"></script>
+
+
+
+     <!-- Optional js files -->
+     <!-- Quick note: if you remove astonish, make sure you remove the embedded styles in the top -->
+     <script src="js/astonish.js" charset="utf-8"></script>
+     <script src="js/nav.js" charset="utf-8"></script>
+     <script src="js/scroll.js" charset="utf-8"></script>
+
+
+     <script>
+          function myFunction() {
+
+               var web3 = new Web3();
+   if (window.ethereum) {
+    web3 = new Web3(window.ethereum);
+    try { 
+       window.ethereum.enable().then(function() {
+           // User has allowed account access to DApp...
+       });
+    } catch(e) {
+       // User has denied account access to DApp...
+    }
+ }
+ // Legacy DApp Browsers
+ else if (window.web3) {
+     web3 = new Web3(web3.currentProvider);
+ }
+ // Non-DApp Browsers
+ else {
+     alert('You have to install MetaMask !');
+ }
+  
+   window.ethereum.enable()
+
+          }
+     </script>
+</body>
+
+</html>
