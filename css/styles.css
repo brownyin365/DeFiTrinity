@@ -549,7 +549,7 @@ button, .btn {
 
 h1 {
   font-size: 2.5rem;
-  color: #8e4c93;
+  color: #73037a;
 }
 
 h2 {
@@ -825,7 +825,7 @@ header h1 {
   font-size: 3.25rem;
   font-weight: 100;
   text-transform: none;
-  color: #8e4c93;
+  color: #73037a;
   line-height: 1.2;
   margin: 0;
   font-weight: bolder;
@@ -834,14 +834,14 @@ header h1 {
 @media (min-width: 544px) {
   header h1 {
     font-size: 4.25rem;
-    color: #8e4c93;
+    color: #73037a;
   }
 }
 
 @media (min-width: 768px) {
   header h1 {
     font-size: 6.25rem;
-    color: #8e4c93;
+    color: #73037a;
   }
 }
 
